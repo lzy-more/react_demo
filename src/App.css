@@ -1,0 +1,25 @@
+.drawer-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.custom-close-button {
+  position: absolute;
+  left: -40px; /* 调整按钮位置 */
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.custom-close-button:hover {
+  color: red; /* 自定义悬停颜色 */
+}
+
+.drawer-body {
+  padding: 16px;
+  width: 100%;
+}
